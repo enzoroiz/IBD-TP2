@@ -1,0 +1,73 @@
+.banner {
+	background-image: url("../img/banner.jpg");
+	opacity: 0.5;
+	height: 300px;
+	background-size: 100%;
+}
+
+.jumbotron {
+	margin-top: 25px;
+}
+
+#content {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+html, body {
+	height: 100%;
+}
+
+#wrapper {
+	    min-height: 100%;
+	    height: 100%;
+}
+
+#footer {
+	height: 155px; /* .push must be the same height as .footer */
+	background-color: #4682b4;
+	color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	margin-top: -155px;
+}
+
+#footer img{
+	max-height: 135px;
+}
+
+.right {
+	float: right;
+}
+
+#push {
+	height: 155px;
+}
+
+.mostrar_todos {
+	text-align: center;
+}
+
+.nova_consulta{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #dddddd;
+}
+
+#image_modal {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	right: auto;
+	bottom: auto;
+	transform: translate(-50%, -50%);
+}
+
+#modal_image_close {
+	position: relative;
+	top: 50px;
+	margin-top: -60px;
+	float: right;
+	right: -7px;
+}

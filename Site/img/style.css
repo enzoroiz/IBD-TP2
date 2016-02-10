@@ -1,0 +1,111 @@
+.banner {
+	background-image: url("../img/banner.jpg");
+	opacity: 0.5;
+	height: 300px;
+	background-size: 100%;
+}
+
+.jumbotron {
+	margin-top: 80px;
+	margin-bottom: 0;
+	text-align: center;
+	padding: 20px;
+}
+
+.jumbotron h1 {
+	font-size: 50px;
+	margin: 0;
+}
+
+.jumbotron p {
+	margin: 0;
+}
+
+
+#content {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+html, body {
+	height: 100%;
+}
+
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+
+#push {
+	height: 155px; /* '.push' must be the same height as 'footer' */
+	clear: both;
+}
+
+#footer {
+	height: 155px; /* .push must be the same height as .footer */
+	background-color: #4682b4;
+	color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	min-width: 1000px;
+	clear: both;
+}
+
+#footer img {
+	max-height: 135px;
+}
+
+#footer h2 {
+	margin-top: 0px;
+}
+
+#footer p {
+	margin: 0;
+	font-size: 16px;
+}
+
+.right {
+	float: right;
+}
+
+#push {
+	height: 155px;
+}
+
+.mostrar_todos {
+	text-align: center;
+}
+
+.nova_consulta{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #dddddd;
+}
+
+#image_modal {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	right: auto;
+	bottom: auto;
+	transform: translate(-50%, -50%);
+}
+
+#modal_image_close {
+	position: relative;
+	top: 50px;
+	margin-top: -60px;
+	float: right;
+	right: -7px;
+}
+
+textarea {
+	resize: none;
+}
+
+* {
+	margin: 0;
+}
